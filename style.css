@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: greenyellow;
+}
+
+/* Change the background color of the navbar */
+.navbar-default {
+  background-color: #4CAF50; /* Vert */
+  border-color: #4CAF50;
+}
+
+/* Change the color of the navbar brand */
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+/* Change the color of the navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+/* Change the color of the active navbar link */
+.navbar-default .navbar-nav > li.active > a {
+  background-color: #45a049; /* Vert plus foncé */
+  color: white;
+}
+
+/* Change the hover color of the navbar links */
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+/* image après la navbar */
+
+.background-section {
+  background-image: url('images/serpent.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

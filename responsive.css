@@ -1,0 +1,10 @@
+/* responsive */
+
+/* Styles pour les écrans mobiles */
+@media screen and (max-width: 768px)
+
+/* Styles pour les écrans de tablettes */
+@media screen and (min-width: 769px) and (max-width: 1024px)
+
+/* Styles pour les écrans d'ordinateurs de bureau */
+@media screen and (min-width: 1025px)
